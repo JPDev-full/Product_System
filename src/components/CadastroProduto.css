@@ -1,0 +1,94 @@
+/* CadastroProduto.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #4c4c4d;
+    background-image: url('E:\\Nunes Sports\\cadastro-produtos\\public\\6927689.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #f1f1f6;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #007bff;
+    box-sizing: border-box;
+}
+  
+h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+  
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+  
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 8px;
+}
+
+/* Ajuste para garantir o mesmo tamanho entre os botões */
+button + button {
+    margin-left: 8px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+/* Adiciona moldura às caixas dos itens cadastrados */
+.item-box {
+    border: 2px solid #f0f2f4;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+li {
+    background-color: #3c48f3;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    margin-left: 8px;
+    background-color: #dc3545;
+    color: #f9f7f7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
